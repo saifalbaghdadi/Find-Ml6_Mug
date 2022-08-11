@@ -51,6 +51,7 @@ def collect_paths_to_files(dataset_dir):
         paths as values.
     """
     dataset_dir = Path(dataset_dir)
+    print(dataset_dir)
     mug_dirs = [f for f in sorted(os.listdir(dataset_dir)) if not f.startswith('.')]
     image_paths_per_label = {
         label: [

@@ -25,8 +25,8 @@ def train_model(params):
     Parameters:
         params: parameters for training the model
     """
-    (train_data, train_labels) = data.create_data_with_labels("data/train/")
-    (eval_data, eval_labels) = data.create_data_with_labels("data/eval/")
+    (train_data, train_labels) = data.create_data_with_labels(r"trainer\data\train")
+    (eval_data, eval_labels) = data.create_data_with_labels(r"trainer\data\eval")
 
     img_shape = train_data.shape[1:]
     input_layer = tf.keras.Input(shape=img_shape, name='input_image')

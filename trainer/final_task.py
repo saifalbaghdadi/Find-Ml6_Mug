@@ -84,8 +84,8 @@ def train_and_export_model(params):
     Parameters:
         params: Parameters for training and exporting the model
     """
-    (train_data, train_labels) = data.create_data_with_labels("data/train/")
-    (eval_data, eval_labels) = data.create_data_with_labels("data/eval/")
+    (train_data, train_labels) = data.create_data_with_labels(r"C:\Users\saifa\Desktop\Find-Mug\trainer\data\train")
+    (eval_data, eval_labels) = data.create_data_with_labels(r"C:\Users\saifa\Desktop\Find-Mug\trainer\data\eval")
 
     train_data = np.append(train_data, eval_data, axis=0)
     train_labels = np.append(train_labels, eval_labels, axis=0)
