@@ -25,6 +25,7 @@ For your purposes, the data has already been split into training data and evalua
 
 In the `trainer` folder, you will be able to see several Python files. The `data.py`, `task.py` and `final_task.py` files are already coded for you. The only file that needs additional code is the `model.py` file. The comments in this file will indicate which code has to be written.
 
+
 To test how your model is doing you can execute the following command (you will need to [install](https://cloud.google.com/sdk/docs/#install_the_latest_cloud_sdk_version) the `gcloud` command, which is also part of the *Google Cloud SDK*):
 
 ```
