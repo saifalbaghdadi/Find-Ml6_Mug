@@ -109,3 +109,4 @@ If you are invited for an interview at ML6 afterwards, make sure to bring your l
 
 After you have received the evaluation email, we no longer require access to the model. Please check the corresponding documentation page for removing AI Platform models. This can be done via the UI or the command line.
 
+
